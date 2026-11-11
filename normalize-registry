@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""Validate anchors.json, sort it by name and force ASCII-only output."""
+import sys
+from pathlib import Path
+
+from pqtrust import TrustRegistry
+
+
+def main(path: str = "pqtrust/anchors.json") -> int:
+    registry = TrustRegistry.load(path)  # raises on any invalid entry
+    registry.save(Path(path))
+    print(f"normalized {len(registry)} anchors in {path}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(*sys.argv[1:2]))

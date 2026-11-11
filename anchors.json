@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "anchors": [
+    {
+      "name": "Aurora Root CA 2026",
+      "algorithm": "ML-DSA-87",
+      "fingerprint": "da2cd744853b19f0a58dcefc4fe50a0ba982b6664e675922dbc0d415c8325fee",
+      "not_after": "2040-12-31",
+      "status": "active"
+    },
+    {
+      "name": "Helios Code Signing",
+      "algorithm": "ML-DSA-65",
+      "fingerprint": "32322f7b0b9725a25e3634040e448318b4d061b73621c4f51fd308a7de33a2fd",
+      "not_after": "2028-06-30",
+      "status": "active"
+    },
+    {
+      "name": "Nimbus Firmware Root",
+      "algorithm": "SLH-DSA-SHA2-128s",
+      "fingerprint": "a5e1ffc143d21066904c7a780e441a688d81d6eddc0c80ab56c3f94c5a7e5043",
+      "not_after": "2035-03-15",
+      "status": "active"
+    },
+    {
+      "name": "Orbit Package Index",
+      "algorithm": "ML-DSA-65",
+      "fingerprint": "6d35031b9936f8345410bce443eb51966e1e96c0d664a19909eee212591427df",
+      "not_after": "2027-02-01",
+      "status": "active"
+    },
+    {
+      "name": "Legacy Bridge Ed25519",
+      "algorithm": "Ed25519",
+      "fingerprint": "f09aeb4f7c784a6cd84391e9c20fd844d476c73ec79c7b0b3191c09c4086ec80",
+      "not_after": "2027-01-10",
+      "status": "active"
+    },
+    {
+      "name": "Zenith IoT Gateway",
+      "algorithm": "SLH-DSA-SHA2-128s",
+      "fingerprint": "a20a542b592ce334507716cfb8c1d660d2bde1a3437e8291ba609fd943d77efb",
+      "not_after": "2031-09-09",
+      "status": "active"
+    }
+  ]
+}
